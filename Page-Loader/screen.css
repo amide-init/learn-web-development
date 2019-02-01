@@ -1,0 +1,62 @@
+/* Just for the demo purposes */
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*1. Style the SVG circls. */
+#page-loader {
+    width: 150px;
+    height: 150px;
+}
+#page-loader circle {
+    fill:none;
+    stroke-width: 10;
+    stroke-linecap: round;
+}
+
+        #page-loader circle:nth-child(1) {
+            stroke: #ffc114;
+            stroke-dasharray: 50;
+        }
+        #page-loader circle:nth-child(2) {
+            stroke: #ff5248;
+            stroke-dasharray: 100;
+        }
+        #page-loader circle:nth-child(3) {
+            stroke: #19cdca;
+            stroke-dasharray: 180;
+        }
+        #page-loader circle:nth-child(4) {
+            stroke: #4e80e1;
+            stroke-dasharray: 350;
+            stroke-dashoffset: -100;
+        }
+/* 2. Create the keyFrame animation. */
+@keyframes loader {
+    50% {
+        transform: rotate(360deg)
+    }
+}
+#page-loader circle {
+    animation-name: loader;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transform-origin:  center center;
+}
+        #page-loader circle:nth-child(1) {
+            animation-delay: -.2s;
+        }
+        #page-loader circle:nth-child(2) {
+            animation-delay: -.4s;
+        }
+        #page-loader circle:nth-child(3) {
+            animation-delay: -.6s;
+        }
+        #page-loader circle:nth-child(4) {
+            animation-delay: -.8s;
+        }

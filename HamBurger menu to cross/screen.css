@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+}
+.hamburger-button {
+    position: relative;
+    width: 45px;
+    height: 34px;
+    transition: .3s ease-in-out;
+
+}
+    .hamburger-button span {
+        position: absolute;
+        height: 8px;
+        border-radius: 4px;
+        width: 100%;
+        background-color: #3d4146;
+        top: 0;
+        transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+    }
+    .hamburger-button span:nth-child(1) {
+        top: 0px;
+    }
+    .hamburger-button span:nth-child(2),
+    .hamburger-button span:nth-child(3) {
+        top: 13px;
+    }
+    .hamburger-button span:nth-child(4) {
+        top:26px;
+    }
+
+/* 2. Style the active state and create the cross */
+ .hamburger-button.active span:nth-child(1),
+ .hamburger-button.active span:nth-child(4) {
+     opacity: 0;
+ }
+ .hamburger-button.active span:nth-child(2) {
+     transform: rotate(45deg);
+ }
+ .hamburger-button.active span:nth-child(3) {
+    transform: rotate(-45deg);
+}
