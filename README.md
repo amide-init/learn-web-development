@@ -6,6 +6,7 @@ just open any folder understand the code and use them it is very easy to use in 
 
 <h3>Card Notification</h3>
 <p>view  Demo:: <a href="https://amide-inc.github.io/learn-web-development/Card-Notification/">https://amide-inc.github.io/learn-web-development/Card-Notification/</a></p>
+<p>Full code : <a href="https://www.github.com/amide-inc/Card-Notification">https://www.github.com/amide-inc/Card-Notification</a></p>
 
 <hr>
 
