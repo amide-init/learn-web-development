@@ -5,7 +5,7 @@ just open any folder understand the code and use them it is very easy to use in 
 <hr>
 
 <h3>Card Notification</h3>
-<p>Url :: <a href="ttps://amide-inc.github.io/learn-web-development/Card-Notification/">https://amide-inc.github.io/learn-web-development/Card-Notification/</a></p>
+<a href="ttps://amide-inc.github.io/learn-web-development/Card-Notification/">https://amide-inc.github.io/learn-web-development/Card-Notification/</a>
 
 <hr>
 
